@@ -68,7 +68,7 @@ nav {
   border-radius: 20px;
   box-shadow:0 32px 75px rgba(68,77,136, 0.2);
 }
-.gallery video{
+.controls{
    width: 80%;
   margin: 100px auto 50px;
   display: grid;
@@ -76,7 +76,7 @@ nav {
   grid-gap:30px ;
   transition: 0.5s;
 }
-.gallery video:hover{
+.controls:hover{
   transform: scale(0.5) rotate(-20deg);
   border-radius: 20px;
   box-shadow:0 32px 75px rgba(68,77,136,0.2);
