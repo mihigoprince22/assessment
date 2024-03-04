@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+*{ margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+ }
+section{
+	min-height: 100vh;
+  background: rgb(22, 251, 222);
+  background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.article{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	transform: translateY(25vh);
+}
+.article h1{
+	font-size: 40px;
+	color: #black;
+	letter-spacing: 2px;
+	font-weight: 800;
+	margin-bottom: 25px;
+}
+.article .btn{
+color: orange;
+padding:12px 20px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+text-decoration: none;
+background-color: ghostwhite;
+}
+.article .btn:hover{
+	background: indianred;
+}
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+ 
+.logo {
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkred;
+}
+ 
+.nav-links {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+ 
+.nav-links li {
+    margin-right: 20px;
+}
+ 
+.nav-links a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.nav-links a:hover {
+    background-color: #40b736;
+    border-radius: 4px;
+    color: white;
+}
+
+ 
