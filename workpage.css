@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Romans', sans-serif;
+}
+body{
+  background: rgb(22, 251, 222);
+  background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+}
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkred;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+ 
+.nav-links li {
+    margin-right: 20px;
+}
+ 
+.nav-links a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.nav-links a:hover {
+    background-color: #40b736;
+    border-radius: 4px;
+    color: white;
+}
+.leftBox {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+    }
+ .leftBox {
+      width: 100%;
+      height: 600%;
+      float: left;
+      padding: 50px;
+      box-sizing: border-box;
+      justify-content: center;
+    }
+ .leftBox .content {
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      transition: .5s;
+      margin: 20px;
+      font-size: 18px;
+      font-family: 'Times New Romans',sans-serif;
+
+    }
+
+ .leftBox .content:hover {
+      background: orangered;
+      } 
+.div-3{
+            background-color: orange;
+            color: black;
+            text-decoration-color: blue;
+            text-align: center;
+            padding: 50px;
+            clear: both;
+            width: 100%;
+            text-align: center;
+            flex-basis: 50%;
+            bottom: 0;
+        }
+
+.div-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa {
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+        button:hover {
+            background-color: #4CAF50;
+        }
